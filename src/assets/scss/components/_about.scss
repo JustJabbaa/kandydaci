@@ -1,0 +1,40 @@
+#About {
+  background-image: url('images/about/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  .section__body {
+    align-items: center;
+    gap: 3rem;
+  }
+  .section__title {
+    text-align: left;
+    text-indent: 10rem;
+    font-size: clamp(1.55rem, 2.0000vw + 1.1750rem, 2.85rem);
+    text-transform: uppercase;
+    color:$secondary-dark;
+  }
+  .about__content {
+    & h3 {
+      margin-bottom: 1rem;
+    }
+    p {
+      max-width: 50ch;
+      font-size: clamp(0.875rem, 0.8024rem + 0.3226vw, 1.35rem);
+      line-height: 1.5;
+      text-wrap: pretty;
+    }
+  }
+  .about__image {
+    position: relative;
+    border-radius: 1rem;
+    border: 1px solid $white-color;
+    box-shadow: 15px 0 35px -5px rgba($secondary-color, .5);
+    overflow: hidden;
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

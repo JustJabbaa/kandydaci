@@ -1,0 +1,19 @@
+// Abstracts 
+@import 'abstracts/variables';
+
+// Base
+@import 'base/reset';
+@import 'base/font';
+
+// Utilities
+@import 'utilities/container';
+
+// Components
+@import 'components/buttons';
+@import 'components/header';
+@import 'components/about';
+@import 'components/kandydaci';
+
+// Layout
+@import 'layout/section';
+@import 'layout/navbar';
